@@ -1,0 +1,51 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        font-family: Tenor Sans, sans-serif;
+    }
+
+    p {
+        font-family: Source Serif Pro;
+    }
+
+    a {
+        font-family: Tenor Sans, sans-serif;
+        text-decoration: none;
+    }
+
+    a:hover {
+        box-shadow: 10rem;
+    }
+
+    .site {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        margin: 10%;
+    }
+
+    .description_name {
+        margin-bottom: -1%;
+        font-size: 3vw;
+    }
+
+    .img_irina {
+        max-width: 100%;
+    }
+
+    .description_text {
+        margin-bottom: 10%;
+        font-size: 1.5vw;
+
+    }
+
+    .description_button {
+        border: 1px solid rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+        padding: 3%;
+        text-transform: lowercase;
+        font-size: 2vw;
+    }
