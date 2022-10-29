@@ -120,3 +120,20 @@ a {
     text-transform: lowercase;
     font-size: 2vw;
 }
+
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(188, 152, 126);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_container1, .footer_container2, .footer_container3 {
+width: 30vw;
+height: 20vh;
+font-family: Tenor Sans, sans-serif;
+text-decoration: none;
+font-size: 1em;
+color: rgb(231, 223, 205);
+}
