@@ -95,12 +95,13 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8%;
-    margin: auto 10%;
+    margin: auto 10% 5% 10%;
 }
 
 .description_name {
-    margin-bottom: -1%;
+    margin-bottom: 3%;
     font-size: 3vw;
+    text-align: center;
 }
 
 .img_irina {
