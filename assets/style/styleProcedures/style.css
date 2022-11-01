@@ -1,11 +1,18 @@
 
-h1 {
-    font-family: Tenor Sans, sans-serif;
-    text-align: center;
+
+.procedures_title_container {
+    margin: 0 7% 7% 7%;
 }
 
 .procedures_title {
-    margin: 0 7% 7% 7%;
+    font-family: Tenor Sans, sans-serif;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.modal-title {
+    font-family: Tenor Sans, sans-serif;
+    text-align: center;
 }
 
 .row {
@@ -24,6 +31,17 @@ h1 {
 
 }
 
+.procedures_modalButton {
+    border: none;
+    background-color: #fff;
+
+}
+
 .card-text {
     font-family: Source Serif Pro;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px grey;
+    outline: 1px solid rgb(170, 170, 170);
 }
