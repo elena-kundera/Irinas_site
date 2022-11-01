@@ -23,6 +23,7 @@
 .card-title {
     font-family: Tenor Sans, sans-serif;
     font-weight: 800;
+    text-align: start;
 }
 
 .list-group-item {
@@ -39,9 +40,18 @@
 
 .card-text {
     font-family: Source Serif Pro;
+    text-align: start;
 }
 
 .card:hover {
     box-shadow: 5px 5px 5px grey;
     outline: 1px solid rgb(170, 170, 170);
+}
+
+.modal-body {
+    font-family: Source Serif Pro;
+}
+
+.btn {
+    font-family: Tenor Sans, sans-serif;
 }
