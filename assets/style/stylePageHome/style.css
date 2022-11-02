@@ -74,6 +74,10 @@ a {
     font-size: 2vw;
 }
 
+.description_button:hover {
+    text-decoration: none;
+}
+
 .comments {
     width: 80%;
     padding: 3% 0;
