@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3% 20% 3% 10%;
+    padding: 3% 10% 5% 10%;
 }
 
 .logo {
@@ -18,60 +18,14 @@
 
 .navbar {
     float: right;
-    overflow: hidden;
-    background-color: none;
 }
 
 .navbar a {
     float: left;
     font-size: 16px;
-    color: rgb(231, 223, 205);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
-}
-
-.button-img {
-    width: 50px;
-    height: 40px;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    background-color: inherit;
-    margin: 0;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    width: 175px;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-family: Source Serif Pro;
-}
-
-.dropdown-content a:hover {
-    background-color: rgba(188, 152, 126);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 
@@ -124,15 +78,10 @@ a {
     width: 80%;
     padding: 3% 0;
     margin: 5% 10%;
-    background: -webkit-linear-gradient(90deg, rgb(188, 152, 126), rgb(169, 121, 83, 0.6), rgb(100, 68, 49, 0.6));
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(90deg, rgb(188, 152, 126), rgb(169, 121, 83, 0.6), rgb(100, 68, 49, 0.6));
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0 30px;
     text-align: center;
 }
-
-.container {}
 
 .comments_title {
     font-family: Tenor Sans, sans-serif;
