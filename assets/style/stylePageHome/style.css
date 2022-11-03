@@ -28,6 +28,9 @@
     text-decoration: none;
 }
 
+.navbar a:hover {
+    color: rgba(188, 152, 126);
+}
 
 h1 {
     font-family: Tenor Sans, sans-serif;
@@ -108,6 +111,15 @@ a {
     font-size: 16px;
     font-weight: bold;
     font-family: Tenor Sans, sans-serif;
+}
+
+.video_comment {
+    height: auto;
+    width: auto;
+}
+
+.video_comment_1 {
+    height: 23em;
 }
 
 .footer {
