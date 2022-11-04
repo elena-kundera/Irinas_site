@@ -21,7 +21,7 @@
 
 .address_titleLondon__container, .address_titleRome__container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 5%;
     padding: 2%;
 
@@ -45,10 +45,21 @@
     justify-content: center; 
 }
 
-/* desctop */
+.map_container {
+width: 100%;
+}
 
-@media screen and (min-width: 1024px) {
-    
+.map {
+    max-width: 100%;
+}
+
+.London_map {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Rome_address {
+    text-align: right;
 }
 
 /* tablet */
@@ -70,6 +81,19 @@
         flex-direction: column;
         margin-bottom: 5%;
         padding: 2%;
+    }
+
+    .London_address, .Rome_address {
+        text-align: center;
+    }
+
+    .London_map, .Rome_map {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Rome_map {
+        margin-bottom: 5%;
     }
 
 }
@@ -97,6 +121,18 @@ p {
     flex-direction: column;
     margin-bottom: 5%;
     padding: 2%;
+}
 
+.London_address, .Rome_address {
+    text-align: center;
+}
+
+.London_map, .Rome_map {
+    display: flex;
+    justify-content: center;
+}
+
+.Rome_map {
+    margin-bottom: 5%;
 }
 }
