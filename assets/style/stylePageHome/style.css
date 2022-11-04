@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 3% 10% 5% 10%;
+    box-shadow: 5px 0 10px grey;
 }
 
 .logo {
@@ -54,6 +55,7 @@ a {
     margin-bottom: 3%;
     font-size: 3vw;
     text-align: center;
+    margin-top: 5%;
 }
 
 .img_irina {
