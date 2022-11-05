@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Source+Serif+Pro&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="assets/style/styleProcedures/style.css" rel="stylesheet">
+        <link href="assets/style/stylePageHome/style.css" rel="stylesheet">
+        <link href="assets/normalize.css" rel="stylesheet">
+    <title>Irina Kiseleva Beauty Studio</title>
+
+    
+
+</head>
+
+
+
+
+<body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Записаться на процедуру</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        23 Lee park <br>
+        London <br>
+        SE3 9HF <br>
+        (Zone Blackheath 5 минут от станции пешком, Greenwich) <br>
+        <br>
+        Контакты для связи: <br>
+        +33 76 63 02 17 (Telegram, WatsApp) <br>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <header class="header">
+    <div class="logo">
+        <h3>Irina Kiseleva studio</h3>
+    </div>
+    <nav class="navbar">
+      <a class="nav-link" href="index.html">Главная</a>
+      <a class="nav-link" href="#">Прейскурант</a>
+      <a class="nav-link" href="gallery.html">Галерея</a>
+      <a class="nav-link" href="contacts.html">Контакты</a>
+  </nav>
+</header>
+
+    <div class="procedures_title_container"><h1 class="procedures_title">Процедуры</h1></div>
+
+    <div class="container container-sm">
+        <div class="row"> 
+            <div class="col"> 
+
+              <button class="procedures_modalButton" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://static.zdravcity.ru/upload/main/fdd/1024_768_чистка.jpg" class="card-img-top" alt="Комплексная чистка лица">
+                <div class="card-body">
+                  <h5 class="card-title">Комплексная чистка лица</h5>
+                  <p class="card-text">Длительность 2 часа 20 минут.
+                    Выполняется совместно с щадящим пилингом Sothys (60£)
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">60£</li>
+                </ul>
+                </div>
+              </button>
+                </div>
+
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="BB Glow">
+                <div class="card-body">
+                  <h5 class="card-title">Процедура BB Glow</h5>
+                  <p class="card-text">Длительность 30 минут. <br>
+                    При единовременной оплате курса из 3-х процедур, стоимость процедуры - 55£ 
+                </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">60 £</li>
+                </ul>
+              </div>
+              </button>
+
+                </div>
+
+
+            <div class="col"> 
+              
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://expertclinics.ru/upload/iblock/a0e/a0e399742a139e7e0cf880ed9449ef68.jpg" class="card-img-top" alt="Фракционная мезотерапия">
+                <div class="card-body">
+                  <h5 class="card-title">Фракционная мезотерапия</h5>
+                  <p class="card-text">Длительность 30 минут.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">50£</li>
+                </ul>
+              </div>
+            </button>
+
+                </div>               
+         
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://korolev.centr-sovershenstvo.ru/upload/iblock/993/99383215a73b02b0c68bb1adffe5a077.jpg" class="card-img-top" alt="Пилинг Prxt33">
+                <div class="card-body">
+                  <h5 class="card-title">Пилинг Prxt33</h5>
+                  <p class="card-text">Длительность 35 минут. <br>
+                    Gри оплате курса от 3-х процедур предоставляется скидка 10%. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">95 £</li>
+                </ul>
+              </div>
+              </button>
+                </div>
+
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://newhospital.ru/upload/medialibrary/43b/5-mezov.jpg" class="card-img-top" alt="Мезотерапия для волос и кожи головы">
+                <div class="card-body">
+                  <h5 class="card-title">Мезотерапия для волос и кожи головы</h5>
+                  <p class="card-text">Длительность 35 минут. <br>
+                    Финальная стоимость зависит от выбора мезококтейля. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">От 35 до 75£ за процедуру</li>
+                </ul>
+              </div>
+              </button>
+                </div>
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://estetic-center.by/storage/articles-images/t1YTDyUVUn38KlKYLZvUwtJjJD97s9es.jpg" class="card-img-top" alt="Пилинг BioRePeel">
+                <div class="card-body">
+                  <h5 class="card-title">Пилинг BioRePeel</h5>
+                  <p class="card-text">Длительность 35 минут. <br>
+                    При оплате курса из 3-х процедур, стоимость процедуры 80 £.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">85 £</li>
+                </ul>
+              </div>
+              </button>
+
+                </div>               
+        
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://www.beauty-profi.ru/upload/services/items/images/57/799x781/5ee8946a7a976.jpeg?crop=1&x1=0&y1=0&x2=0&y2=0" class="card-img-top" alt="Мезотерапия для тела">
+                <div class="card-body">
+                  <h5 class="card-title">Мезотерапия для тела </h5>
+                  <p class="card-text">Стоимость зависит от мезококтейля, который вы подбираете со специалистом на консультации.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">От 30 до 75£ за сеанс </li>
+                </ul>
+                </div>
+              </button>
+
+                </div>
+
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://detali.com/wp-content/uploads/2021/03/Consultation1.jpg" class="card-img-top" alt="Консультация специалиста">
+                <div class="card-body">
+                  <h5 class="card-title">Консультация специалиста</h5>
+                  <p class="card-text">Длительность 30 минут. <br></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">30 £</li>
+                </ul>
+                </div>
+              </button>
+
+                </div>
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://www.synergycosmetic.cz/wp-content/uploads/Zvetseni-rtu-600x400.jpg" class="card-img-top" alt="Филлеры">
+                <div class="card-body">
+                  <h5 class="card-title">Филлеры</h5>
+                  <p class="card-text">Увеличение объёма губ и другие процедуры с использованием филлеров гиалуроновой кислоты.
+                    (Зависят от марки и количества филлера) <br> В наличии филлеры от 180 до 220£ за шприц.
+                </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">От 180 до 220 £ за шприц</li>
+                </ul>
+                </div>
+              </button>
+
+                </div>               
+        
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://www.mcolmed.ru/upload/information_system_37/1/item_1511/information_items_1511.jpg" class="card-img-top" alt="КОМПЛЕКСНЫЙ ЭНЕРГЕТИЧЕСКИЙ УХОД">
+                <div class="card-body">
+                  <h5 class="card-title">КОМПЛЕКСНЫЙ ЭНЕРГЕТИЧЕСКИЙ УХОД Sothys
+                </h5>
+                  <p class="card-text">Длительность 75 минут</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">95£</li>
+                </ul>
+              </div>
+            </button>
+
+                </div>
+
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://www.demax.com.ua/wp-content/uploads/2022/08/вол.jpg" class="card-img-top" alt="ГЛУБОКОЕ УВЛАЖНЕНИЕ HYDRA3">
+                <div class="card-body">
+                  <h5 class="card-title">ГЛУБОКОЕ УВЛАЖНЕНИЕ HYDRA3</h5>
+                  <p class="card-text">Длительность 75 минут</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">95£
+                </li>
+                </ul>
+              </div>
+            </button>
+                </div>
+
+
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://idclinic.com.ua/images/2019/10/03/anti-aging.jpg" class="card-img-top" alt="АНТИ ЭЙДЖ ПРОЦЕДУРА МОЛОДОСТИ JEUNESSE">
+                <div class="card-body">
+                  <h5 class="card-title">АНТИ ЭЙДЖ ПРОЦЕДУРА МОЛОДОСТИ JEUNESSE</h5>
+                  <p class="card-text">Длительность 75 минут</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">95£</li>
+                </ul>
+              </div>
+            </button>
+
+                </div>               
+        
+            <div class="col"> 
+
+              <button type="button" class="procedures_modalButton" class="border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card" style="width: 18rem;">
+                <img src="https://www.medcenterrosh.ru/upload/medialibrary/8f7/8f7c81f7b099710319dc5121301ca70e.jpg" class="card-img-top" alt="Пилинг Resufaciant">
+                <div class="card-body">
+                  <h5 class="card-title">Пилинг Resufaciant
+                </h5>
+                  <p class="card-text">Длительность 50 минут</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">62£</li>
+                </ul>
+              </div>
+            </button>
+                </div>
+
+            
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <footer class="footer">
+      <div class="footer_container1">Address in London: <p> 10 Green street </p> <p>Open hours: Mon-Sun 10am-8pm</p> </div>
+      <div class="footer_container2">Address in Rome: <p> 25 via Dante Alighieri</p> <p>Open hours: Mon-Sun 10am-8pm</p></div>
+      <div class="footer_container3">Find us in socials:</div>
+  </footer>
+
+
+
+
+
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

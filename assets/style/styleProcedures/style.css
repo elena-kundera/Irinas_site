@@ -1,0 +1,62 @@
+
+
+.procedures_title_container {
+    margin: 0 7% 7% 7%;
+}
+
+.procedures_title {
+    font-family: Tenor Sans, sans-serif;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+
+.modal-title {
+    font-family: Tenor Sans, sans-serif;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 3%;
+    margin-left: 4%;
+}
+
+.card-title {
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 800;
+    text-align: start;
+}
+
+.list-group-item {
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 800;
+
+}
+
+.procedures_modalButton {
+    border: none;
+    background-color: #fff;
+
+}
+
+.card-text {
+    font-family: Source Serif Pro;
+    text-align: start;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px grey;
+    outline: 1px solid rgb(170, 170, 170);
+}
+
+.modal-body {
+    font-family: Source Serif Pro;
+}
+
+.btn {
+    font-family: Tenor Sans, sans-serif;
+}
+
+.card {
+    margin-bottom: 10%;
+}
