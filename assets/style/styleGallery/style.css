@@ -1,0 +1,22 @@
+.carousel-item {
+    height: 100vh;
+}
+
+.gallery_container {
+    display: flex;
+    margin: 0 10% 10% 10%;
+    justify-content: center;
+    height: 100vh;
+}
+
+.d-block {
+    height: 100vh;
+    width: 50vw;
+}
+
+.gallery_title {
+    height: 10vh;
+    display: flex;
+justify-content: center;
+
+}
