@@ -29,6 +29,9 @@
     text-decoration: none;
 }
 
+.navbar a:hover {
+    color: rgba(188, 152, 126);
+}
 
 h1 {
     font-family: Tenor Sans, sans-serif;
@@ -42,7 +45,6 @@ a {
     font-family: Tenor Sans, sans-serif;
     text-decoration: none;
 }
-
 
 .site {
     display: grid;
@@ -65,7 +67,6 @@ a {
 .description_text {
     margin-bottom: 10%;
     font-size: 1.5vw;
-
 }
 
 .description_button {
@@ -112,6 +113,15 @@ a {
     font-family: Tenor Sans, sans-serif;
 }
 
+.video_comment {
+    height: auto;
+    width: auto;
+}
+
+.video_comment_1 {
+    height: 23em;
+}
+
 .footer {
     width: 100%;
     height: 20vh;
@@ -130,4 +140,101 @@ a {
     font-size: 1em;
     color: rgb(231, 223, 205);
     padding-top: 3%;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+    }
+
+    .description_name {
+        font-size: 10vw;
+    }
+
+    .description_text {
+        font-size: 5vw;
+    }
+}
+
+/*smartphone*/
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 3% 5%;
+    }
+
+    .logo {
+        font-size: 6px;
+        width: 40%;
+
+    }
+
+    .navbar a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .site {
+        gap: 3%;
+        padding-top: 5%;
+    }
+
+    .description_name {
+        font-size: 6vw;
+        padding-top: 5%;
+    }
+
+    .img_irina {
+        max-width: 13em;
+
+    }
+
+    .description_text {
+        font-size: 5vw;
+    }
+
+    .description_button {
+        font-size: 6vw;
+    }
+
+    .comments {
+        width: 100%;
+        margin: 20% 0 0 0;
+        border-radius: 0 0;
+
+    }
+
+    .comments_title {
+        font-family: Tenor Sans, sans-serif;
+        padding-top: 5%;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 10px;
+        text-align: start;
+        margin-left: 3%;
+    }
+
+    .maintxt {
+        font-size: 1.5em;
+    }
+
+    .video_comment {
+        height: auto;
+        width: auto;
+    }
+
+    .video_comment_1 {
+        height: 23em;
+        padding-right: 5px;
+    }
+
+    .footer {
+        height: auto;
+    }
 }

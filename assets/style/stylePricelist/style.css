@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainPricelist {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    gap: 5px;
+    padding: 5% 5% 5% 0;
+}
+
+.img_pricelist {
+    grid-column: 1/2;
+    align-self: flex-start;
+    justify-self: center;
+    position: sticky;
+    top: 5%;
+}
+
+.procedures_price {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.production_price {
+    grid-column: 3/4;
+}
+
+.price_title {
+    font-family: Tenor Sans, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: rgb(71, 43, 13);
+}
+
+.procedures_name {
+    float: left;
+    width: 50%;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .price_title {
+        font-size: 2em;
+    }
+
+    .mainPricelist {
+        height: 100vh;
+    }
+}
+
+/*smartphone*/
+@media screen and (max-width: 767px) {
+    .mainPricelist {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: 10% 5%;
+        padding: 0%;
+    }
+
+    .img_pricelist {
+        display: none;
+    }
+
+    .price_title {
+        font-size: 1.5em;
+    }
+
+    .accordion .card {
+        width: 90vw;
+    }
+
+}
